@@ -1,0 +1,169 @@
+body{
+    height: 100vh;
+    
+    margin: 0;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-areas: "1 nome" ;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: 100vh;
+}
+
+section#esquerda {
+    background-color: rgba(240, 248, 255, 0);
+    grid-area: 1 ;
+    height: 83.8vh;
+}
+
+section#direita {
+ /*   background-color: rgba(58, 58, 219, 0.486); */
+    grid-area: nome ;
+    background-image: url(img/zap.jpg);
+}
+
+
+
+/* parte do perfil e pesquisa  */
+
+header {
+    
+    height: 8vh;
+    background-color: rgba(196, 202, 207, 0.329);
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icone-1 {
+    border-radius: 50%;
+    height: 90%;
+    cursor: pointer;
+    margin-left: -2%;
+    margin-right: 36%;
+}
+
+.icone-2 {
+    cursor: pointer;
+    height: 45%;
+    margin-top: 50%;
+    
+}
+
+.icone-3 {
+    cursor: pointer;
+    height: 3.5vh;
+    margin-top: 45%;
+    margin-left: 100%;
+}
+
+.icone-4 {
+    cursor: pointer;
+    height: 3.9vh;
+    margin-top: 3%;
+    margin-left: 6%;
+    margin-right: 2%;
+}
+
+section#pesquisa {
+    height: 7vh;
+    display: flex;
+}
+
+
+
+.CV {
+    height: 4.3vh;
+    width: 22vw;
+    background-image: url(img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 6%;
+    background-color: rgba(135, 148, 156, 0.13);
+    padding-left: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    border-radius: 0.7vw;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    color: rgba(0, 0, 0, 0.658);
+} 
+
+
+/* Conversas */
+
+
+section#arquivadas {
+    display: flex;
+    height: 8vh;
+    border-top: 1px solid rgba(0, 0, 0, 0.116);
+    font-size: 3vh;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+section#arquivadas > p {
+    text-indent: 1vw;
+    margin-top: 3%;
+}
+
+/* pessoas no canto esquerdo */
+section#conversaS {
+    overflow: auto;
+    height: 100%;
+    
+}
+
+
+
+.conversa {
+    height: 10.8vh;
+    display: flex;
+  /*  background-color: rgb(245, 246, 246); */
+    
+    
+}
+
+.conversa:hover {
+    cursor: pointer;
+    background-color: rgb(216, 210, 210);
+}
+
+.icone-conversa {
+    height: 85%;
+    border-radius: 90%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.mensagem {
+    border-top: 1px solid rgba(0, 0, 0, 0.116);
+    width: 100%;
+    flex-direction: column;
+    
+}
+
+.ult-mens {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.692);
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.nome {
+    font-size: 2.9vh;
+    margin: 0;
+    margin-left: 3%;
+    margin-top: 4%;
+
+    
+}
+
+
+
+/* barra de rolagem */
+::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(206, 208, 209);
+}
