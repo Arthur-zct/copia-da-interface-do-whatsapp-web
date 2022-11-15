@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+    border-left: 1px solid rgba(0, 0, 0, 0.418);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.644);
+}
+
+header {
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.575);
+    
+}
+
+/* criar tarefa */
+section#criar-tarefa {
+    background-color: antiquewhite;
+    text-align: center;
+    /*border-radius: 10px;*/
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.596);
+}
+
+.Add-1 {
+    display: flex;   
+}
+
+.Add-1 input{
+    height: 40px;
+    width: 70%;
+    margin-left: 10px;
+}
+
+.botaoMais {
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.botaoMais img {
+    height: 100%;
+    pointer-events: none;
+}
+
+
+
+
+/* tarefas */
+
+
+.tarefa {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.botao {
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.botao img {
+    height: 100%;
+    pointer-events: none;
+}
+
+.titulo {
+    width: 65%;
+}
+
+.excluir {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.completo {
+    background-color: rgba(35, 104, 18, 0.692);  
+}
+
+/* editar tarefa */
+
+#editartarefa {
+    height: 200px;
+    width: 450px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: beige;   
+}
+
+#editartarefa div {
+    display: flex;
+}
+
+#editartarefa > h2 {
+    margin-left: 15%;
+    padding-top: 10px;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+#input-edicao {
+    margin-left: 5%;
+    margin-top: 15%;
+    height: 45px;
+    width: 80%;
+}
+
+#editartarefa button {
+    height: 40px;
+    margin-top: 15%;
+}
+
+/* complemento */
+.invisivel {
+    display: none;
+}
+
+.opa {
+    height: 40px;
+    width: 65%;
+    background-color: aliceblue;
+}
