@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;   
+}
+
+/* TOPO (header e nav)  */
+header {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: #ddcdf471;
+}
+
+header  h1 {
+    margin-top: 0.4rem;
+}
+
+header img {
+    height: 99%;
+    
+}
+
+nav {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 1vh;
+    height: 3.5vh;
+    padding-bottom: 0.5vh;
+    background-color: #ddcdf471;
+}
+
+nav a {
+    padding-left: 1rem;
+    text-decoration: underline;
+    color: black;
+}
+
+
+main {
+    display: flex;
+    height: 73vh;
+    
+}
+
+/* categorias */
+
+#categorias {
+    width: 17%;
+    height: 100%;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #c6ccfa75;
+}
+
+#categorias h2 {
+    text-align: center;  
+}
+
+.lista-catego {
+    list-style: none;
+    padding-left: 0;   
+}
+
+.li {
+    height: 2.5rem;
+    padding: 3px;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    margin-top: 0.4rem;
+    background-color: #c6ccfa73;
+    border-radius: 0.5rem;
+}
+
+.li a {
+    text-decoration: none;
+    color: black;   
+}
+
+.li a:hover {
+    color: brown;
+    font-weight: bolder;
+}
+
+.li img {
+    height: 100%;
+}
+
+
+.li:hover {
+    height: 3rem;  
+    box-shadow: 0.3rem 0.3rem 0.1rem rgba(0, 0, 0, 0.308);
+}
+
+
+
+/* pesquisas */
+
+#pesquisa {
+    height: 14vh;
+    width: 100%;
+    padding: 0.3rem 0.3rem 0.5rem 0.3rem;
+    border-radius: 0 0 1rem 1rem ;
+    border-top: 2px solid rgba(0, 0, 0, 0.185);
+    padding-top: 0.5rem;
+    position: relative;
+    background-color: #ddcdf471;
+}
+
+#pesquisa img {
+    margin-left: 20%;
+    height: 95%;
+}
+
+
+.input {
+    width: 43%;
+    height: 53%;  
+    position: absolute;
+    bottom: 1.4rem;
+    right: 28vw;
+    border-radius: 1rem;
+    border: 0.14rem solid #e0a708;
+    outline: 0;
+}
+
+
+
+
+/* destaques */
+
+#destaques {    
+    width: 83%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    height: 100%;
+    background-color: rgb(250, 250, 250);
+}
+
+
+
+/* produtos */
+
+
+.produto {  
+    height: 27vh;
+    width: 17vw; 
+    margin-top: 4vh;
+    margin-left: 2vw;
+    background-color: #fff;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.116);
+}
+
+.produto a {
+    text-decoration: none;
+    color: black;
+}
+
+.produto h2 {
+    height: 3vh;
+}
+
+.produto img {
+    height: 85%;    
+    width: 100%;    
+}
+
+
+.produto:hover {
+    padding: 0.5vh; 
+    box-shadow: 0.3rem 0.5rem 0.1rem rgba(0, 0, 0, 0.226);
+}
+
+.C-pro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* produtos "secundarios" */
+
+
+
+#produtos-s {
+    margin: 2vh;
+    border-top: 1px solid rgba(0, 0, 0, 0.459);
+}
+
+#produtos-s h3 {
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+
+#produtos-perifericos {
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    border-radius: 1rem;
+    padding-bottom: 3vh;
+}
+
+
+
+
+
+footer {
+    margin-top: 5vh;
+    color: black;
+    background-color: rgb(247, 243, 243);
+}
+
+
+@media (max-width: 889px) {
+    
+    main {
+        display: block;
+        height: auto;   
+    }
+
+    html {
+        font-size: 13px;
+    }
+
+    /* categorias */
+
+    #categorias {
+        width: 100%;
+        height: 20vh;
+        border-radius: 1rem;
+        padding: 0.5rem;
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+        background-color: #c6ccfa75;
+        margin-bottom: 10px;
+    }
+
+    .lista-catego {
+        list-style: none;
+        padding-left: 0; 
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .li {
+        height: 2.6rem;
+        padding: 3px;
+        font-size: 1.1rem;
+        padding: 0.5rem;
+        margin-top: 0.4rem;
+        margin-left: 0.5rem;
+        background-color: #c6ccfa73;
+        border-radius: 0.5rem;
+        width: 30%;
+        font-size: 1rem;
+    }
+    
+    .li:hover {
+        height: 2.5rem;
+    }
+
+    /* pesquisa */
+
+    #pesquisa {
+        height: 14vh;
+        width: 100%;
+        padding: 0.3rem 0.3rem 0.5rem 0.3rem;
+        border-radius: 0 0 1rem 1rem ;
+        border-top: 2px solid rgba(0, 0, 0, 0.185);
+        padding-top: 0.5rem;
+        position: relative;
+        background-color: #ddcdf471;
+    }
+    
+    #pesquisa img {
+        margin-left: 10%;
+        height: 80%;
+    }
+
+    /* destaques e produtos */
+
+    #destaques {    
+        width: 99%;
+        padding: 0.8rem;
+        margin-top: 0.5rem;
+        height: 100%;
+        background-color: rgb(250, 250, 250);
+    }
+    
+    .produto {  
+        height: 21vh;
+        width: 25vw; 
+        margin-top: 4vh;
+        margin-left: 5vw;
+        background-color: #fff;
+        box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.116);
+    }
+
+    .produto img {
+        height: 80%;    
+        width: 100%;    
+    }
+    
+
+}
+
+
+
+
+
+
+@media (max-width: 749px) {
+
+    /* categorias */
+
+    #categorias {
+        width: 100%;
+        height: 25vh;
+        border-radius: 1rem;
+        padding: 0.5rem;
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+        background-color: #c6ccfa75;
+        margin-bottom: 10px;
+    }
+
+    .lista-catego {
+        list-style: none;
+        padding-left: 0; 
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .li {
+        height: 3rem;
+        padding: 3px;
+        font-size: 1.1rem;
+        padding: 0.5rem;
+        margin-top: 0.4rem;
+        margin-left: 0.5rem;
+        background-color: #c6ccfa73;
+        border-radius: 0.5rem;
+        width: 30%;
+        font-size: 1rem;
+    }
+    
+    .li:hover {
+        height: 2.5rem;
+    }
+
+    .produto {  
+        height: 19vh;
+        width: 25vw; 
+        margin-top: 4vh;
+        margin-left: 5vw;
+        background-color: #fff;
+        box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.116);
+    }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
