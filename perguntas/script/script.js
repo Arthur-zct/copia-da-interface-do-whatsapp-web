@@ -121,10 +121,7 @@ function resultado(primeiro, segundo, terceiro) {
         Nome.classList.add("nome")
         secao.appendChild(Nome);
 
-       /* let resultFinal = document.createElement("img");
-        resultFinal.classList.add("fotoResult")
-        resultFinal.src = 'img/deusvillian.jpg';
-        secao.appendChild(resultFinal);        */
+    
 
         document.getElementById("botao").remove();
 
@@ -138,10 +135,7 @@ function resultado(primeiro, segundo, terceiro) {
         Nome.classList.add("nome")
         secao.appendChild(Nome);
 
-      /*  let resultFinal = document.createElement("img");
-        resultFinal.classList.add("fotoResult")
-        resultFinal.src = 'img/herikdocs.jpg';
-        secao.appendChild(resultFinal); */
+      
 
         document.getElementById("botao").remove();
 
@@ -154,10 +148,7 @@ function resultado(primeiro, segundo, terceiro) {
         Nome.textContent = "Você vai gostar de css!"
         Nome.classList.add("nome")
         secao.appendChild(Nome)
-       /* let resultFinal = document.createElement("img");
-        resultFinal.classList.add("fotoResult")
-        resultFinal.src = 'img/pedroversaofaro.jpg';
-        secao.appendChild(resultFinal); */
+       
 
         document.getElementById("botao").remove();
 
