@@ -1,2 +1,3 @@
-# projetos
- Projetos que fiz para treinar.
+# copia de treino
+ Copiei a pagina inicial do zwhatsApp web.
+
